@@ -1,0 +1,9 @@
+/* The JS function of index page
+ * author : YTU yang wang
+ */
+$(document).ready(function(){
+		$('#qrcode').click(function(){
+			alert('sfd');
+		});
+});
+

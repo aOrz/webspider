@@ -1,0 +1,86 @@
+/* Move down content because we have a fixed navbar that is 50px tall 
+ * author : YTU yang wang
+ */
+body {
+  padding-top: 31px;
+  padding-bottom: 20px;
+}
+footer {
+	margin-top:20%;
+}
+
+.col-lg-6 {
+	width:100%;
+}
+
+.container {
+	min-height:400px;
+	height:100%;
+}
+
+.navbar {
+	padding-top:0;
+	padding-bottom:0;
+	line-height:33px;
+	height:33px;
+	min-height:33px;
+	border-bottom:2px solid #666;
+}
+.navbar-brand {
+	padding:0 7px;
+	line-height:32px;
+	height:32px;
+	min-height:32px;
+}
+
+.btn-login {
+	font-size:0.85em;
+	background-color:#51116b;
+	padding:6px 15px 6px 15px;
+	border:0;
+	border-bottom:3px solid #3c124e;
+	border-radius:0;
+}
+.btn-login:hover {
+	background-color:#702b8c;
+	border-bottom:3px solid #3c124e;
+}
+.btn-login:focus {
+	background-color:#702b8c;
+	border-bottom:3px solid #3c124e;
+}
+
+.h5 {
+	font-size:0.85em;
+	color:#fff;
+	padding:9px 6px 5px 6px;
+}
+.h5:hover {
+	background-color:#666;
+}
+.h5-select {
+	background-color:#51116b;
+	border-bottom:4px solid #3c124e;
+}
+
+.form-control {
+	border-radius:0;
+}
+.form-control:focus {
+	box-shadow:0 0 0 #000;
+}
+.input-group {
+	min-width:100px;
+}
+
+.qr-code-img {
+	visibility:hidden;
+}
+
+.search-beach {
+	 width:100%;
+	 height:100px;
+	 background-color:#ddd;
+	 margin:0;
+}
+

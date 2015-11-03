@@ -1,0 +1,6 @@
+/* The JS function of index page
+ * author : YTU yang wang
+ */
+$()function(){
+	$('.qr-code').css('visibility','visible');
+}
